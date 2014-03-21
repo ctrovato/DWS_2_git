@@ -1,0 +1,83 @@
+body{ 
+	background-color: #FFFDD7;
+}
+
+.jumbotron {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: inherit;
+  background-color: #FFFDD7;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #FFF;
+  cursor: default; 
+  background-color: #668f93;
+  border: 2px solid #FFF;
+  border-bottom-color: transparent;
+}
+
+.nav-tabs > li > a:hover {
+  border-color: #d7ab6e #d7ab6e  #d7ab6e;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #668f93;
+  border-color: #668f93;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #668f93;
+  background-color: #d7ab6e;
+  border-color: #d7ab6e;
+}
+
+h1{
+	text-indent: -9999px;
+	background: url(../images/CTlogo2.png);
+	background-repeat: no-repeat;
+	padding-bottom: 5px;
+}
+
+p{
+	font-size: 1.1em;
+	font-family: Helvetica;
+	font-style: bold;
+	color: #668f93;	
+}
+
+
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #668f93;
+}
+
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #668f93;
+  background-color: #d7ab6e;
+  border-color: #d7ab6e;
+}
+
+
+
+footer{
+	text-align: center; 
+}

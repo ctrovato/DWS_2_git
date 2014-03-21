@@ -1,0 +1,701 @@
+html{
+background-image: url("../images/grass.jpg") ;
+background-size: 100%;
+background-repeat: fixed;
+background-color: #eeeeee; 
+}
+
+body{
+	width:75%;  /* 960px/1280px */
+	margin: 1.5% auto 0;
+	background:white;
+	font-family: helvetica;
+	font-size:62.5%;   
+	padding-top: 130px;
+	box-shadow: 0px 0px 7px 2px #000000; 
+}
+
+
+/* ============================= $Navigation with Z-Index ======================== */
+
+#navigation{
+	 position: fixed;
+	 left: 9.375%; /* 120px/1280px */
+	 top: 0;
+	 width: 78.125%;	/* 1000px/1280px */
+	 padding: 0 1.5%; /* 20px/1000px*/
+ 	 background-color:#505050 ;
+ 	 box-shadow: 0px 2px 2px #000000; 
+ 	 z-index:2;
+}
+
+nav>ul{
+	margin: 0;
+    padding: 0px 1% ;/* 10px/1000px */ /* 20px/1000px */
+    text-align: center;
+    width: 64%; /* 640px/1000px */
+    line-height: 97px;
+    float: left;
+    height: 110px;
+}
+
+nav ul~ul{
+	 width: 64%; /* 640px/1000px */
+}
+
+
+nav ul>li{
+	padding-left:0;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center; 
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: bold; 
+	padding: 0 1.041666666%; /*10px/960px*/
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+nav ul li a:hover{
+	color: #83FF87;
+}
+#image{
+	width: 100%;
+	position: absolute;
+	top: 5px;
+}
+
+#image img{
+	width: 100%;
+}
+
+
+/*============================== $Box =========================*/
+
+
+#box p{
+	font-size: 1.8em;
+	display: inline-block;
+	margin-top: 5px;
+	text-align: left;
+}
+
+#box {
+	width: 26%; /* 260px/1000px */
+	float: left;
+	color: #E3E6E9;
+	margin-left:50px;
+}
+
+h1{
+	color: #83FF87;
+	font-size: 3.5em;
+	margin-bottom: 0;
+	margin-top:20px;
+	text-align:left;
+}
+
+/* ============================= $Section One  Relative Position ===============*/
+
+#section_one{
+	 height:180px;
+	 position: relative;   
+	 padding-bottom: 30px;
+}
+
+
+#text{
+	text-transform: capitalize;
+	font-family: Helvetica;
+	font-size:2.5em;
+	line-height:50px;
+	padding-left: 10.416666666%; /* 100px/960px */
+}
+
+
+/* ================================ $Section Two ========================== */
+
+
+#section_two{
+	 height: 300px;
+	 background-color:#E8DEAB;
+	 padding-top:40px;
+	 padding-bottom: 20px;
+}
+
+#responsive  {
+	width: 20.833333333%; /* 200px/960px */ 
+	float: left;
+	padding: 0 6.25%; /* 60px/960px */
+	text-align: center;
+	background-color: #E8DEAB;
+}
+
+
+#section_two p{
+	 font-size: 1.5em;
+	 margin-top:6px;
+	 line-height:17px;
+}
+
+#section_two h2{
+	 font-size: 2.3em; 
+	 margin-bottom: 6px
+}
+
+
+#section_two a{
+	 font-weight: bold;
+	 text-decoration:none;
+	 color:#505050;
+	 font-size: 1.2em;
+	 line-height: 20px;
+}
+
+
+
+#section_two #responsive img{
+	width: 26.737967914%; /* 50px/187px */
+}
+
+
+/* ========================== $Middle section ================= */
+
+#middle_section{
+	 text-align: center;
+	 background-color:#83FF87;
+	 padding: 25px 5px;
+	 margin-top: 40px;
+}
+
+#middle_section p{
+	 width: 62.5% ;/* 600px/960px */
+	 margin:0 auto;
+	 font-size: 1.4em;
+	 line-height:17px;
+}
+
+#middle_section h2{
+	 margin:0 0 5px;
+	 font-size: 3em;
+}
+
+
+/*========================================= $footer ===========================*/
+
+footer{
+	background-color: #83FF87;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 10px 10.416666666%; /* 10px/960px */
+}
+
+
+/*====================================== $Media Queries ==========================*/
+
+@media only screen and (min-width: 1185px) and (max-width: 1400px){
+	#section_one{
+		display:none;
+	}
+}
+
+
+@media only screen and (min-width: 1187px){
+	nav ul~ul{
+		display:none;
+	}
+}
+
+#middle_section{
+	 text-align: center;
+	 background-color:#83FF87;
+	 padding: 50px 5px;
+	 margin-top: 0;
+}
+
+@media only screen and (min-width:1134px) and (max-width:1187px) {
+
+nav ul li{
+	font-size: 1.2em;
+}
+
+h1{
+	font-size: 3em;
+}
+
+#brand p{
+	font-size: 1.6em;
+}
+
+nav ul~ul{
+	display: none;
+}
+
+#section_one{	
+	display: none;
+}
+
+}
+
+/* ============================= $@media only screen and (min-width: 1064px) and (max-width:1134px) ========= */
+
+@media only screen and (min-width: 1064px) and (max-width:1134px) {
+
+#box {
+ margin-left:40px;
+}
+
+nav ul~ul{
+	display: none;
+}
+
+h1{
+	font-size: 2.6em;
+}
+
+#section_one{	
+	display: none;
+}
+
+#box p{
+	font-size: 1.4em;
+}
+
+nav ul {
+	padding-left:0;
+	text-align: left;
+}
+
+nav ul li{
+	font-size: 1.15em;
+}
+
+#responsive {
+	width: 100%;
+	clear:both;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #E8DEAB;
+}
+
+
+#res_design{
+	padding-left: 22%;
+}
+
+
+#social{
+	padding-left: 13.583333333%;
+}
+
+
+#section_two #responsive img{
+	width: 50px;
+}
+
+}
+
+
+/* ======================= $@media only screen and (min-width: 917px) and (max-width:1064px) ================== */
+
+@media only screen and (min-width: 917px) and (max-width:1064px) {
+
+body { 
+	padding-top: 200px;
+}
+
+#box {
+	 width: 100%;
+	 margin-left:0;
+	 text-align: center;
+}
+
+#box h1{
+	width: 100%;
+	font-size: 3.8em;
+	text-align: center;
+}
+
+#box p{
+	font-size: 1.8em;
+}
+
+nav ul{
+	clear: both;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-size: 1.4em;
+	padding: 0;
+	line-height: 60px;
+}
+nav ul li{
+	font-size: 1.1em;
+	height: 100%;	
+}
+
+nav ul~ul{
+	display: none;
+}
+
+#social{
+	padding-left: 12.583333333%;
+}
+
+#responsive {
+	width: 100%;
+	clear:both;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #E8DEAB;
+}
+
+
+#section_two #responsive img{
+	width: 50px;
+}
+
+
+#section_one{
+	display: none;
+}
+
+#section_two{
+	height: 700px;
+	padding-top: 0;
+}
+#section_two p{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#section_two #responsive img{
+	width: 50px;
+}
+
+
+
+footer{
+	background-color: #83FF87;
+	clear: both;
+}
+
+
+}
+
+
+/* ========================== $@media only screen and(min-width: 821px) and (max-width: 917px) ============ */
+
+@media only screen and (min-width: 821px) and (max-width: 917px) {
+
+body { 
+	padding-top: 140px;
+}
+
+#box {
+	 width: 100%;
+	 margin-left:0;
+	 text-align: center;
+}
+
+#box h1{
+	width: 100%;
+	font-size: 3.8em;
+	text-align: center;
+}
+
+#box p{
+	font-size: 1.8em;
+}
+
+nav ul{
+	clear: both;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-size: 1.4em;
+	padding: 0;
+	line-height: 60px;
+}
+nav ul li{
+	font-size: 1em;
+	height: 100%;	
+}
+
+nav ul~ul{
+	display:none;
+}
+
+#text{
+	padding-left: 8%;
+	text-align: left;
+}
+
+
+
+#responsive{
+	width: 100%;
+	clear:both;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #E8DEAB; 
+}
+
+
+#section_one{
+	display: none;
+}
+
+#image{
+	display:none;
+}
+
+#text{
+	width: 100%;
+	text-align: center;
+	font-size: 2.2em;
+}
+
+#section_two{
+	height: 700px;
+	padding-top: 0;
+	background-color: #E8DEAB;
+}
+#section_two p{
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+#section_two #responsive img{
+	width: 50px;
+}
+
+
+
+
+footer{
+	clear: both;
+}
+
+}
+
+
+/* ========================== $@media only screen and (min-width:664px) and (max-width: 821px)========== */
+
+@media only screen and (min-width:664px) and (max-width: 821px){
+
+body { 
+	padding-top: 140px;
+}
+
+#box {
+	 width: 100%;
+	 margin-left:0;
+	 text-align: center;
+}
+
+#box h1{
+	width: 100%;
+	font-size: 3.8em;
+	text-align: center;
+}
+
+#box p{
+	font-size: 1.8em;
+}
+
+nav ul{
+	clear: both;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-size: 1.4em;
+	padding: 0;
+	line-height: 60px;
+}
+
+nav ul~ul{
+	display:none;
+}
+
+nav ul li{
+	font-size: .8em;
+	height: 100%;	
+}
+
+#text{
+	padding-left: 8%;
+	text-align: left;
+}
+
+#social_media{
+	 background-color:#E3E6E9;
+}
+
+#res_design{
+	padding-right: 10%;
+	text-align: right;
+}
+
+
+
+#responsive{
+	width: 100%;
+	clear:both;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #E8DEAB;
+}
+
+#custom_layouts{
+	background-color: #E3E6E9;	 
+}
+
+
+#section_one{
+	display: none;
+}
+
+#image{
+	display:none;
+}
+
+#text{
+	width: 100%;
+	text-align: center;
+	font-size: 2.2em;
+}
+
+#section_two{
+	height: 700px;
+	padding-top: 0;
+	background-color: #E8DEAB; 
+}
+#section_two p{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#section_two #responsive img{
+	width: 50px;
+}
+
+
+footer{
+	clear: both;
+}
+
+}
+
+
+/* ======================= $@media only screen and (max-width:664px) ========= */
+
+@media only screen and (max-width:664px){
+
+body { 
+	padding-top: 150px;
+	width: 100%;
+}
+
+#box {
+	 width: 100%;
+	 margin-left:0;
+	 text-align: center;
+}
+
+#box h1{
+	width: 100%;
+	font-size: 3.8em;
+	text-align: center;
+}
+
+#box p{
+	font-size: 1.8em;
+}
+
+#nav_list{
+	display: none;
+}
+
+#navigation{
+	width: 100%;
+	left: 0;
+	padding-left: 0;
+	padding-right: 0;
+ 	box-shadow: 0px 0px 0px #000000; 
+}
+
+#navigation nav ul~ul{
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	margin-left:0;
+	box-shadow: 0px 0px 4px #000000; 
+	height: 60px;
+	line-height: 60px;
+}
+
+nav ul~ul{
+	background-color: #787878;
+}
+
+nav ul~ul li a{
+	font-size: 2.5em;
+}
+
+nav ul~ul li a:hover{
+	color: #83FF87;
+}
+
+
+#res_design{
+	padding-right: 10%;
+	text-align: right;
+}
+
+#responsive {
+	width: 100%;
+	clear:both;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #E8DEAB;
+}
+
+
+#section_one{
+	display:none;
+}
+#image{
+	display:none;
+}
+
+#middle_section p{
+	 width: 80%; /* 600px/960px */
+}
+
+#section_two{
+	height: 700px;
+	padding-top: 0;
+}
+#section_two p{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#section_two #responsive img{
+	width: 50px;
+}
+
+footer{
+	clear: both;
+}
+}
