@@ -1,0 +1,334 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+
+/* @main - MAIN BODY STARTS*/
+/* --------------------*/
+
+
+body{
+	width:100%;
+	max-width:960px;
+	margin: 2.604166666%  auto 3.125%; /*25px/960px*/
+	background-color: #5B93E8;
+	font-family: arial, verdana, sans-serif;
+	font-size:62.5%; /* changes the default to 10px*/
+	box-shadow: 0px 2px 20px #000000; 
+}
+
+
+/*  @header - HEADER STARTS*/
+/* --------------------*/
+header{
+	margin: 0 auto;
+}
+
+
+/* --------NEVIGANTION------------*/
+
+nav{
+ 	padding: 1% 0 0; margin-bottom: 0;
+ 	   /*60px/960px  &  20px/960px*/
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center; 
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold; 
+	padding: 0 1%; /*10px/960px*/
+
+}
+
+nav ul li#home {
+	border: none;
+}
+
+nav ul{
+	padding:1% 0 0 0;  /*65px/960px*/ 
+	text-align: center;
+}
+
+nav>ul>li>a{
+   font-size: 2.5em;
+   text-decoration:none;
+}
+
+
+h1{
+	text-align: center;
+	margin-top: 16px;
+	font-size: 7em;
+	color: #FFE848;
+	font-family: Helvetica;
+
+}
+
+h3 {
+ 	color:white;
+}
+
+header h3{
+	font-weight:bold;
+	font-family: helvetica;
+	padding-right:1.041666666%; /*10px/960px*/
+	font-size: 1.8em;           /*18px*/
+	margin-top:4.166666666%;    /*40px/960px*/
+	margin-left: .520833%;		/*5px / 960px*/
+}
+
+p{
+	font-size: 1.5em;
+	padding-bottom:.520833333%; /*5px/960px*/
+	color:white;
+	margin-left: .520833%;  /*5px / 960px*/
+	text-align: left;
+
+}
+
+article h3{
+	font-size: 2.5em;
+	padding-bottom:.520833333%; /*5px/960px*/
+	color:white;
+	text-align: center;
+}
+
+
+/* ----------FOOTER----------*/
+footer{
+	text-align: center; 
+	font-size: 1.4em;  /*14px*/
+	background: linear-gradient(rgba(104, 156, 210, 0.1), rgba(255, 255, 255, 0.6));
+	height: 70px;
+	padding-bottom:2.08333333%; /*20px/960px*/
+}
+
+footer>p {
+    padding-top: 3.125%;   /*30px/960px*/
+    color: white;
+}
+
+
+/* #Page Styles
+================================================== */
+
+
+
+/* ---------IMAGE GALLERY-----------*/
+.fourteen.float_left{
+	margin: 0 auto;
+} 
+
+.image_gallery{
+	height: 200px;
+}
+
+.images{
+	width: 22.5%;     /*180px/800px*/
+	height:100%;
+	max-height:160px;
+	margin: 1.5%;    /*12px/800px*/
+	float: left;
+}
+
+.arrow_div{
+	width: 8.75%;     /*70px/800px*/
+	height:100%;
+	max-height:60px;
+	margin: 1.5%;     /*12px/800px*/
+	float: left;
+}
+
+/* CLASS TAG WOULD NOT WORK SO I DID IN LINE, SORRY */
+.img_arrow_size{
+	height: 50px; 
+	margin-top: 30px;
+}
+
+.margin_reset{
+	margin:0 auto 1.041666666%; /*10px/960px*/
+}
+.images:nth-child(1){
+	margin-left:0;
+}
+
+
+.margin-left-ten{
+	margin-left: 1.041666666% ; /*10px/960px*/
+}
+
+img[src$="pelican.jpg"] {
+	height: 160px;
+	outline: 4px solid #0067bf;
+	outline-offset:-3px;
+}
+
+img[src$="image2.jpg"] {
+	height: 160px;
+	outline: 4px solid #0067bf; 
+	outline-offset:-3px;
+	
+}
+
+img[src$="image3.jpg"]:hover {
+	opacity:1;
+}
+
+img[src$="image3.jpg"] {
+	height: 160px;
+	outline: 4px solid #0067bf;
+	outline-offset:-3px;
+}
+
+img[src$="right.png"]:hover {
+	outline-offset: -4px;
+}
+
+img[src$=".png"] {
+	width: 100%; /*100%*/
+	height: 160px;
+}
+
+
+figure{
+	margin: 0 auto;	
+	padding-bottom: 3.125%; /*30px/960px*/
+	width:100%
+}
+
+figure img {
+	width:100%;
+	margin-bottom: 1.041666666%; /*10px/960px*/
+}
+
+figure img {
+	width:100%;
+	margin-bottom: 1.041666666%; /*10px/960px*/
+}
+
+
+
+/* ---------ATTRIBUTE SELECTORS-----------*/
+
+
+a[href$="html"]:hover {
+	color:#E8DB6B;	
+}
+
+a[href^="#"]{
+  	 color:white; 	
+}
+
+nav>ul>li>a[href^="#"]:visited{
+  	 color:white; 	
+}
+
+nav>ul>li>a[href^="#"]:hover {
+	color:#E8DB6B;	
+}
+
+
+a[href^="#"]:link{
+  	 color:white; 
+	
+}
+
+a[href^="#"]:hover{
+  	 color:#E8DB6B; 	
+}
+
+a[class|="login"]:active  {
+	color: #49B5D4;	
+}
+
+
+/* #Media Queries
+================================================== */
+
+@media screen and (min-width: 882px) and (max-width: 959px){
+
+}
+
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media screen and (min-width: 770px) and (max-width: 881px) {
+	nav>ul>li>a{font-size: 2.5em;}
+	h1{font-size: 5em;}
+}
+
+	@media screen and (min-width: 700px) and (max-width: 769px) {
+	nav>ul>li>a{font-size: 2.5em;}
+	h1{font-size: 3.5em;}
+	article{display: none;}
+}
+
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 351px)  and (max-width: 699px) {
+		header{padding-top: 30px; width:100%;}
+		header h3{text-transform: uppercase; clear:both; width: 100%; margin: 20px 0; padding:5px; text-align:center;}
+		body{width:95%;}		
+		article{display: none;}
+		article{margin-top:0;padding-top:0;}
+		article h3{margin-top:15px;} 
+		nav>ul>li>a{font-size: 2em;}
+		h1{font-size: 3em;}
+	}
+
+
+
+
+
+
+
+/* Mobile Portrait (devices and browsers) */
+	@media only screen and (min-width: 285px) and (max-width: 350px) {
+		header{padding-top: 30px; width:100%; margin-left: -10px;}
+		header h3{text-transform: uppercase; clear:both; width: 100%; margin: 20px 0; padding:5px; text-align:center; font-size:2em; }
+		article h3{font-size: 2em;}
+		body{width:96%;}
+		article{display: none;}
+		article{margin-top:0;padding-top:0;}
+		article h3{margin-top:15px;}
+		nav>ul>li>a{font-size: 1.5em;}
+		h1{font-size: 2.5em;}
+
+
+}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

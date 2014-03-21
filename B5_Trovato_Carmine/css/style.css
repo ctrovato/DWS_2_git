@@ -1,0 +1,128 @@
+body{
+	background:  url("../images/canvas.gif") repeat center fixed;
+}
+
+
+/* Headers*/
+h1{
+	text-indent: -9999px;
+	background: url(../images/gameLOGO.png);
+	background-repeat: no-repeat;
+	padding-bottom: 0px;
+}
+
+h3,h4,h6,p{
+	color: white;
+	font font-family: Helvetica;
+}
+
+h2{
+  color: #b315ff;
+  font font-family: Helvetica;
+}
+
+
+strong {
+  color: #b315ff;
+}
+
+
+/* Button */
+button, .button {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */
+  background-color: #b315ff;
+  border-color: #b315ff;
+  color: #ffffff;
+  -webkit-transition: background-color 300ms ease-out;
+  -moz-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  /*     @else                            { font-size: $padding - rem-calc(2); } */ }
+
+  button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #ffffff;
+    color: #b315ff;
+  }
+
+  .inline-list {
+  margin: 0 auto 1.0625rem auto;
+  margin-left: -1.375rem;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden; }
+  .inline-list > li {
+    list-style: none;
+    color: #b315ff;
+    float: left;
+    margin-left: 1.375rem;
+    display: block; }
+    .inline-list > li > * {
+      display: block; }
+
+   a {
+     color: #b315ff;
+   }   
+
+
+/* Panel */
+.panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333333 ;
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  background: #333333 }
+
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
+    color: white;
+    margin-top: 10px; }
+
+/* Video */
+.flex-video {
+  position: relative;
+  padding-top: 2px;
+  padding-bottom: 40%;
+  height: 0;
+  margin-bottom: 1rem;
+  overflow: hidden; }
+
+/* Footer */
+  .footer {
+  	text-align: center;
+  }
+
+
+  /*---------------------MEDIA QUERIES---------------------*/
+
+/*---------------- Mobile LOGO --------------- */
+@media screen and (min-width: 270px) and (max-width: 440px) {
+
+  h1{
+  text-indent: -9999px;
+  background: url(../images/gameLOGOmobile.png);
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
+}
+
+

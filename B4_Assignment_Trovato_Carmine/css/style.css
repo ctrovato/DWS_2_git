@@ -1,0 +1,182 @@
+body{ 
+	background-color: #FFFDD7;
+}
+
+.jumbotron {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: inherit;
+  background-color: #FFFDD7;
+}
+
+/*______CAROUSEL________*/ 
+.carousel {
+  position: center;
+  width: 60%;
+}
+
+.carousel-control.left {
+  margin-top: 265px;
+
+}
+.carousel-control.right {
+  margin-top: 265px;
+  right: 0;
+  left: auto;
+}
+
+
+/*______FORM________*/ 
+.form-group {
+  margin-bottom: 15px;
+  width: 85%;
+  color:#668f93;
+}
+
+.form-control{
+   width: 85%;
+   margin-bottom: 15px;
+   color:#d7ab6e;
+}
+
+
+/*______NAVIGATION________*/ 
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #FFF;
+  cursor: default; 
+  background-color: #668f93;
+  border: 1px solid #FFFDD7;
+  border-bottom-color: #FFFDD7;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #d7ab6e;
+}
+
+.nav-tabs > li > a:hover {
+  border-color: #d7ab6e #d7ab6e  #d7ab6e;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #668f93;
+  border-color: #668f93;
+}
+
+button {
+  overflow: visible;
+  background-color: #668f93;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #668f93;
+  background-color: #d7ab6e;
+  border-color: #d7ab6e;
+}
+
+blockquote{
+  background-color: #FFFDD7;	
+}
+
+
+h1{
+	text-indent: -9999px;
+	background: url(../images/CTlogo.png);
+	background-repeat: no-repeat;
+	padding-bottom: 5px;
+}
+
+h2{
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #668f93;		
+}
+
+h3{
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: center;
+	color: #668f93;	
+
+}
+
+p{
+	font-size: 1.1em;
+	font-family: Helvetica;
+	color: #668f93;	
+}
+
+.social{
+	float: right;
+}
+
+.clientel{
+	text-align: center;
+
+
+}
+
+li {
+	text-align: right;
+	display: inline;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #668f93;
+}
+
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #668f93;
+  background-color: #d7ab6e;
+  border-color: #d7ab6e;
+/*---------------------MEDIA QUERIES---------------------*/
+
+/*---------------- Mobile LOGO --------------- */
+@media screen and (min-width: 270px) and (max-width: 769px) {
+
+  h1{
+  text-indent: -9999px;
+  background: url(../images/CTlogo2mobile.png);
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
+}
+}
+
+
+
+footer{
+	text-align: center; 
+}
+
+
+
+
+@media screen and (min-width: 270px) and (max-width: 995px) {
+
+	.social{
+		display: none;
+		
+}
+	

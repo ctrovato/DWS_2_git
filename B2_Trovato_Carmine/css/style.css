@@ -1,0 +1,180 @@
+/*---------------------NAV---------------------*/
+
+nav {
+	margin: left;
+	width: 100%; /* 960px */
+	height: 5%; /* 0.52083px / 960px */
+	background: transparent;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	font-family: helvetica;
+	color: white;
+	text-align: center;
+	margin: 0 0 0 4px; /* 0.416px / 960px */
+	padding: 0.5em 1em 0 1em;
+	width: 5em;
+	height: 2.2em;
+}
+
+nav ul li a:hover {
+	color: #909090;
+}
+
+
+/*---------------------BODY---------------------*/
+
+
+body {
+	margin: 0;
+	font: 100%/1.5 helvetica;
+	background-color: black;
+}
+
+#wrapper {
+	max-width: 960px;
+	margin: 0 5%; /* 48px / 960px */
+	margin: 0 auto;
+}
+
+h2 {
+	color: #fff;
+	margin: 0 0 2% 0;  /* 19.2px / 960px */
+	padding: 0 2%;
+	background: rgba(0, 0, 0, .3);
+}
+
+h3 {
+	color: #fff;
+	margin: 0 0 2% 0;   
+	padding: 0 2%;
+	background: rgba(0, 0, 0, .3);
+}
+
+p {
+	font-size: 0.8125em;
+	color: #fff;
+}
+
+article {
+	margin: 0 2% 2% 2%; /* 12.8px / 640px */
+	padding: 2%;
+	background: #223422;
+}
+
+aside {
+	margin: 0 2% 2% 2%;  
+	padding: 2%;
+	background: #004C00;
+}
+
+#main {
+	width: 66.6666%; /* 640px / 960px */
+	float: left;
+}
+
+#sidebar {
+	width: 33.3333%;  /* 319.99 / 960px */
+	float: left;
+}
+
+
+/*---------------------MEDIA QUERIES---------------------*/
+
+/*---------------- Tablet portrait to 959px --------------- */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+	article {
+	margin: 0 1% 1% 1%; /* 9.59px / 959px */
+	padding: 1%;
+	background: #223422;
+}
+
+	aside {
+	width: 29.33%;  /* 281.27 / 959px */
+	margin: 0 1% 1% 1%; /* 9.59px / 959px */
+	padding: 1%;
+	background: #004C00;
+	float: left;
+}
+
+	#main {
+	width: 100%;  /* 959px / 959px */
+	}
+
+	#sidebar {
+	width: 100%;  /* 959px / 959px */
+	}
+}
+
+/* ---------------Mobile Landscape to Tablet portrait-------------- */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+	article {
+	margin: 0 1% 1% 1%;  /*  7.67px /  767px */
+	padding: 1%;
+	background: #223422;
+}
+
+	aside {
+	width: 46%;     /* 352.82px / 767px  */
+	margin: 0 1% 1% 1%;   /*  7.67px /  767px */
+	padding: 1%;      
+	background: #004C00;
+	float: left;
+}
+
+	#main {
+	width: 100%;   /*  767px /  767px */
+}
+
+	#sidebar {
+	width: 100%;   /*  767px /  767px */
+	}
+}
+
+/* -----------Mobile Portrait to Mobile Landscape------------ */
+@media screen and (max-width: 479px) {
+
+	article {
+	margin: 0 1% 1% 1%;   /*  4.79px /  479px */
+	padding: 1%;
+	background: #223422;
+}
+
+	aside {
+	width: 96%;      /* 459.84px  /  479px */
+	margin: 0 1% 1% 1%;     /*  4.79px /  479px */
+	padding: 1%;
+	background: #004C00;
+	float: left;
+}
+
+	#main {
+	width: 100%;    /*  479px /  479px */
+}
+
+	#sidebar {
+	width: 100%;      /*  479px /  479px */
+}
+
+	nav ul li {
+	width: 32%;      /* 155px / 479px */
+}
+
+	nav ul li a {
+	margin: 0;
+}
+
+}
