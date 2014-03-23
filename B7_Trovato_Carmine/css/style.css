@@ -1,0 +1,143 @@
+
+
+
+/*=============== $Form Style =================*/
+
+
+body{
+	background-color: #E8E8E8 ;
+	max-width: 650px;
+	border-radius: 5px;
+	margin: 10px auto;
+	font-family:  verdana;
+	box-shadow: 0 0px 5px 3px #FF4542;
+	color: white;
+	padding: 3.125%;
+}
+
+.image img{
+
+	margin: 100px;
+}
+
+#textfield{
+	height: 80px;
+	width:80%;
+}
+
+h1{
+	position: relative;
+	top: 18px;
+	text-indent: -9999px;
+	background: url(../images/Canoe.png);
+	background-repeat: no-repeat;
+	padding-bottom: 0px;
+}
+
+h2,h3, p{
+	padding-top: 15px;
+	color: #FF4542;
+}
+
+footer{
+	clear: both;
+	padding: 5px 0;
+	text-align: center;
+}
+
+div{
+	width: 100%
+}
+
+
+
+/* =============== $Form Input ====================*/
+
+input{
+	width: 50%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.form_focus:focus, .form_hover:hover {
+	background-color: #CCFF33;
+	opacity: 4;
+}
+
+select{
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 10px
+}
+
+#radio input{
+	width: 5%;
+	margin-bottom: 5px;
+	margin-left:0;
+}
+
+#radio {
+	margin-bottom: 20px;
+}
+
+#slider{
+	margin-left:0;
+}
+
+
+
+.float_left{
+ 	float: left;
+}
+
+.float_right{
+ 	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.round_corner{
+	border-radius: 4px;
+}
+
+
+/* =============== $button ====================*/
+
+#submit{
+	background: linear-gradient(rgb(255,141,137), rgb(255,69,66)); 
+	border:1px solid rgb(255,69,66);
+	height: 40px;
+	line-height: 50px;
+	width: 200px;
+	font-size: 1.5em;
+	border-radius: 5px;
+	color: rgb(240,233,220);
+	margin-top: 20px;	
+}
+
+#btn{	
+	display: inline-block;
+	padding-left: 30%;
+	text-align: center;
+}
+
+#submit:hover{
+	background:linear-gradient(rgb(255,69,66), rgb(255,141,137));
+	color: white;
+}
+
+
+/* =============== $Media Quieries ====================*/
+
+@media screen and (max-width:560px){
+body{
+	margin: 0;
+}
+
+}
+
+
+
+
