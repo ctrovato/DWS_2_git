@@ -230,12 +230,20 @@ h1{
 	border: 1px solid black;
 }
 
+#large_pic img{
+	width: 100%;
+}
+
 #pic{
 	width:95.503333333%; /* 920/960 */
 	padding: 1.041666666%; /* 10px */
 	margin: 10px 1.041666666%; /* 20px */
 	border: 1px solid black;
 	clear:both;
+}
+#picture{
+	left:1.1%;
+	padding-right:1%;
 }
 
 #thumbnails{
@@ -257,6 +265,7 @@ h1{
 	opacity: 1;
 	top: 88.5%;
 }
+
 
 #pic:hover #label{
 	-moz-transition: none;
@@ -287,9 +296,6 @@ h1{
 	margin: 0 10px;
 }
 
-#side_text{
-	display: none;
-}
 
 #pic{
 	width:95.503333333%; /* 920/960 */
@@ -297,6 +303,20 @@ h1{
 	margin: 10px 1.041666666%; /* 20px */
 	border: 1px solid black;
 	clear:both;
+}
+
+#large_pic img{
+	width: 100%;
+}
+
+#side_text{
+	display: none;
+
+}
+
+#picture{
+	left:1.1%;
+	padding-right:1%;
 }
 
 #thumbnails{
@@ -313,14 +333,7 @@ h1{
 	padding: 1.234567901%; /* 5px */
 	margin: .3%; /* 5px */
 }
-#pic #picture{
-	display: none;
-}
 
-#pic:hover #picture{
-	transition: none;
-	transform: none;
-}
 
 #thumbnails img:nth-child(odd):hover{
 	box-shadow: 0 0 7px 2px #000;
@@ -343,7 +356,7 @@ h1{
 /* ================= $media queries: mobile portrait =============
 ================================================================== */
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:399px) (min-width:200px){
 
 
 
@@ -359,15 +372,22 @@ h1{
 
 #side_text{
 	display: none;
+
 }
 
 #pic{
 	width:95.503333333%; /* 920/960 */
 	padding: 1.041666666%; /* 10px */
-	margin: 10px 1.041666666%/* 20px */;
+	margin: 10px 1.041666666%; /* 20px */
 	border: 1px solid black;
 	clear:both;
 }
+
+
+#large_pic img{
+	width: 100%;
+}
+
 
 #thumbnails{
 	width:95.503333333%; /* 920/960 */
@@ -380,17 +400,10 @@ h1{
 #thumbnails img{
 	width: 43%;
 	border: 1px solid white;
-	padding: 1.234567901% /* 5px */;
-	margin: .3% /* 5px */;
-}
-#pic #picture{
-	display: none;
+	padding: 1.234567901%; /* 5px */
+	margin: .3%; /* 5px */
 }
 
-#pic:hover #picture{
-	transition: none;
-	transform: none;
-}
 
 #thumbnails img:nth-child(odd):hover{
 	box-shadow: 0 0 7px 2px #000;
@@ -403,9 +416,8 @@ h1{
 
     -moz-transform: scale(1.07,1.07); 
 	-webkit-transform: scale(1.07,1.07); 
-	-o-transform: scale(1.07,1.07); */
-	transform: scale(1.07,1.07); */
- */
+	-o-transform: scale(1.07,1.07); 
+	transform: scale(1.07,1.07); 
 	z-index: 1;
 }
 
