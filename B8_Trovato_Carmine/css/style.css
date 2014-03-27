@@ -166,11 +166,15 @@ p{
 	transform: translate(0, 120px);
 }
 
+#thumbnails{
+		margin; 0 auto;
+}
 
 
 #thumbnails img{
 	position: relative;
 	z-index: 0;
+
 }
 
 #thumbnails img:nth-child(even):hover{
